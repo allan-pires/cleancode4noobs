@@ -1,10 +1,10 @@
 # CleanCode4noobs
 
 <h1 align="center">
-  <img src="https://res.cloudinary.com/wlion/f_auto,q_auto,c_fill/wlion/2017/04/CleanCode.jpg" width="360">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L.jpg" width="320">
 </h1>
 
-<p align="center">Resumo do livro Clean Code.</p>
+<p align="center">Resumo do livro <i>Clean Code: A Handbook of Agile Software Craftsmanship</i> de Robert Cecil Martin.</p>
 
 ## ROADMAP
 
