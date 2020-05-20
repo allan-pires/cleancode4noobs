@@ -1,4 +1,5 @@
 # Capítulo 1: Código Limpo
+<img src="https://res.cloudinary.com/wlion/f_auto,q_auto,c_fill/wlion/2017/04/CleanCode.jpg" width="380">
 
 O capítulo começa com uma frase bem bacana que é:
 > "Você está lendo esse livro por duas razões. Primeiro, você é um programador. Segundo, você quer ser um programador melhor. Ótimo. Precisamos de programadores melhores."
