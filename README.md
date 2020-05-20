@@ -1,7 +1,4 @@
 # CleanCode4noobs
-Repositório para auxiliar e introduzir iniciantes aos ensinamentos do Clean Code
-
-# CleanCode4noobs
 
 <h1 align="center">
   <img src="https://i.imgur.com/UYhCAYw.jpg.png" width="120">
