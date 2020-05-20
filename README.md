@@ -1,7 +1,7 @@
 # CleanCode4noobs
 
 <h1 align="center">
-  <img src="https://i.imgur.com/UYhCAYw.jpg.png" width="120">
+  <img src="https://res.cloudinary.com/wlion/f_auto,q_auto,c_fill/wlion/2017/04/CleanCode.jpg" width="360">
 </h1>
 
 <p align="center">Resumo do livro Clean Code.</p>
