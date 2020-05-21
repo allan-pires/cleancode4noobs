@@ -15,6 +15,20 @@
 
 - [Capítulo 3: Funções](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-3/funcoes.md)
 
+- [Capítulo 4: Comentários](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-4/comentarios.md)
+
+- [Capítulo 5: Formatação](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-5/formatacao.md)
+
+- [Capítulo 6: Objetos e Estrutura de Dados](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-6/objetos-e-estrutura-de-dados.md)
+
+- [Capítulo 7: Tratamento de Erro](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-7/tratamento-de-erro.md)
+
+- [Capítulo 8: Limites](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-8/limites.md)
+
+- [Capítulo 9: Teste de Unidade](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-9/teste-de-unidade.md)
+
+- [Capítulo 10: Classes](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-10/classes.md)
+
 #### Referências
 Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
