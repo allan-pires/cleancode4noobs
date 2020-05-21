@@ -11,7 +11,7 @@
 
 - [Capítulo 1: Código Limpo](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-1/codigo-limpo.md)
 
-- [Capítulo 2: Nomes Significantes](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significantes.md)
+- [Capítulo 2: Nomes Significativos](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significativos.md)
 
 - [Capítulo 3: Funções](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-3/funcoes.md)
 
