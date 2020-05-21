@@ -17,7 +17,7 @@ Não existe nada que realmente dite que uma função pequena é melhor que uma f
 Seguindo a dica passada, blocos dentro de estruturas condicionais como if, else ou while devem ter apenas uma linha, e essa linha provavelmente deve ser uma chamada de função.
 
 ```java
-//exemplo-4.java
+// exemplo-4.java
 
 public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean isSuite) throws Exception {
   if (isTestPage(pageData)){
@@ -26,6 +26,9 @@ public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean
   return pageData.getHtml();
 }
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 35.</i>
+</div>
 
 Isso faz com que a leitura do código fique muito mais fácil e rápida.
 
@@ -35,8 +38,10 @@ Funções devem fazer somente UMA coisa, e devem fazê-la bem.
 <img src="https://66.media.tumblr.com/bd51c0328b590e10c10010cfab72b3f8/tumblr_inline_pjzs8aTkN91sqnfvc_400.gifv" width="380">
 
 ```java
-//exemplo-5.java
-
+// exemplo-5.java
+  WikiPage wikiPage = pageData.getWikiPage();
+  StringBuffer buffer = new StringBuffer();
+  
   if (includeSuiteSetup) {
     WikiPage suiteTeardown = 
       PageCrawlerImpl. getInheritedPage(
@@ -56,8 +61,10 @@ Funções devem fazer somente UMA coisa, e devem fazê-la bem.
   }
   pageData.setContent(buffer.toString());
   return pageData.getHtml();
-}
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 32-33.</i>
+</div>
 
 Nesse exemplo acima podemos claramente ver que esse código faz bem mais que uma coisa e possui diferentes níveis de abstração. Cria buffers, busca páginas, renderiza caminhos, gera HTML, além de outras coisas.
 
