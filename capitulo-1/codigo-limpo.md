@@ -9,9 +9,9 @@ A principal proposta do Clean Code é ajudar o leitor a escrever um bom código.
 ## Mas se o meu código 'ruim' tá funcionando, por que eu vou querer me dar ao trabalho de refatorar tudo pra deixar ele 'bom'?
 Porque o custo total de manter um código ruim é **enorme**.
 
-Quem trabalha ou trabalhou como programador por algum tempo já deve ter passado pela experiência de ter uma produtividade ruim por causa de código ruim. Algo que deveria ter levado horas para ser feito, acabou levando semanas. Uma mudança que bastava ser de uma linha, mas precisou ser feita também em centenas de outros módulos. Todos esses sintomas são bem comuns, adicionar uma funcionalidade simples acaba se tornando uma tarefa extremamente complexa.
-
 <img src="https://i.imgflip.com/429s3u.jpg" width="380">
+
+Quem trabalha ou trabalhou como programador por algum tempo já deve ter passado pela experiência de ter uma produtividade ruim por causa de código ruim. Algo que deveria ter levado horas para ser feito, acabou levando semanas. Uma mudança que bastava ser de uma linha, mas precisou ser feita também em centenas de outros módulos. Todos esses sintomas são bem comuns, adicionar uma funcionalidade simples acaba se tornando uma tarefa extremamente complexa.
 
 ## Por que isso acontece? Por que um código bom rapidamente pode virar ruim?
 
