@@ -21,6 +21,8 @@ O nome ```d``` não revela nada, não responde nenhuma pergunta. Enquanto isso, 
 
 - A unidade de tempo utilizada é dias.
 
+<img src="https://i.imgflip.com/429ssz.jpg" width="380">
+
 ## 2. Nomes deves ser explícitos
 Vou deixar outro exemplo do livro aqui, você consegue entender o que o seguinte código faz?
 
