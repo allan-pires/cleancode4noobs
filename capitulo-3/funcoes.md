@@ -123,6 +123,8 @@ private void logError(Exception e) {
 ## 8. DRY (Don’t Repeat Yourself)
 Não repita a si mesmo. Trechos repetidos tornam o código mais obscuro e obsoleto, aumentam a complexidade e dificultam a manutenção.
 
+<img src="https://i.imgflip.com/429vj8.jpg" width="380">
+
 ---
 
 
