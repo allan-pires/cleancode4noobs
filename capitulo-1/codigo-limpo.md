@@ -13,7 +13,7 @@ Quem trabalha ou trabalhou como programador por algum tempo já deve ter passado
 
 ![](https://miro.medium.com/max/1060/1*Yvtd3gFEZlfWryv63CsTtA.png)
 
-## Por que isso acontece? Por que um código bom rapidamente apodrece em um código ruim?
+## Por que isso acontece? Por que um código bom rapidamente pode virar ruim?
 
 A gente sempre tem alguma desculpa pra dar: o prazo de entrega era muito curto; os requisitos mudaram no meio do projeto; o gerente de produtos pediu coisas absurdas, entre outras. Mas a culpa na verdade é nossa. Nós como desenvolvedores devemos ser profissionais a ponto de defender a importância de escrever um código limpo, mesmo que demore mais pra ser feito.
 
@@ -27,7 +27,7 @@ Seguindo a analogia, também não é profissional que um desenvolvedor se curve 
 
 
 ## Mas afinal, o que seria um código limpo?
-O livro também mostra como programadores experientes interpretam o que seria um código limpo. Entre eles, o autor do livro (Uncle Bob), descreve que para ele um código limpo é um código que não precisa ser explicado. Um código que qualquer programador possa bater o olho e saber exatamente o que ele faz.
+O livro mostra como programadores experientes interpretam o que seria um código limpo, entre eles o autor do livro (Uncle Bob) descreve que para ele um código limpo é um código que não precisa ser explicado. Um código que qualquer programador possa bater o olho e saber exatamente o que ele faz.
 > "Qualquer tolo pode escrever um código que um computador consiga entender. Bons programadores escrevem código que humanos consigam entender." - Martin Fowler
 
 Mas também não basta saber escrever um código limpo. É preciso **manter** o código limpo com o passar do tempo também, porque se tem uma coisa que é bastante comum de acontecer é começar um projeto bonitinho do zero, mas com o passar do tempo ele virar uma completa bagunça. Lembre-se sempre da **Regra do Escoteiro**:
