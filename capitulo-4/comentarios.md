@@ -43,10 +43,6 @@ As vezes os padrões corporativos nos obrigam a escrever certos códigos por raz
 // Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
 // Released under the terms of the GNU General Public License version 2 or later.
 ```
-<div align="center">
-  <i>Robert C. Martin, 2009, p. 55.</i>
-</div>
-<br>
 
 **Comentários informativos**
 
@@ -55,10 +51,6 @@ Comentários com informações básicas as vezes são úteis, como por exemplo f
 // Compara o seguinte formato kk:mm:ss EEE, MMM dd, yyyy
 Pattern timeMatcher = Pattern.compile("\\d*:\\d*:\\d* \\w*, \\w* \\d*, \\d*");
 ```
-<div align="center">
-  <i>Robert C. Martin, 2009, p. 56. - Tradução livre</i>
-</div>
-<br>
 
 **Comentários de aviso**
 
@@ -81,7 +73,7 @@ public static SimpleDateFormat makeStandardHttpDateFormat() {
 ## Comentários Ruins
 A maioria dos códigos se enquadra nessa categoria, normalmente são apenas desculpas para código e decisões ruins.
 
-**Resmungado**
+**Gambiarras**
 ```java
 public void loadProperties() {
   try {
@@ -99,7 +91,95 @@ public void loadProperties() {
 </div>
 <br>
 
-O que o comentário acima significa? Claramente 
+O que o comentário acima significa? Claramente significava algo pra o desenvolvedor, mas o motivo não é aparente.
+
+** Comentários redundantes **
+```java
+// Calcula a pontuação total
+public String calculateTotalScore() {
+
+```
+
+```java
+/* O dia do mês. */
+ private int dayOfMonth;
+```
+
+** Comentários enganosos **
+```java
+/** The name. */
+private String name;
+
+/** The version. */
+private String version;
+
+/** The licenceName. */
+private String licenceName;
+
+/** The version. */
+private String info;
+```
+Leia atentamente os comentários mais uma vez.
+
+** Regra de comentários **
+```java
+/**
+ *
+ * @param title The title of the CD
+ * @param author The author of the CD
+ * @param tracks The number of tracks on the CD
+ * @param durationInMinutes The duration of the CD in minutes
+ */
+ public void addCD(String title, String author,
+ int tracks, int durationInMinutes) {
+ CD cd = new CD();
+ cd.title = title;
+ cd.author = author;
+ cd.tracks = tracks;
+ cd.duration = duration;
+ cdList.add(cd);
+ }
+```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 63. - Tradução livre</i>
+</div>
+<br>
+
+** Comentários de adição **
+```java
+/* Added by Steve */
+```
+
+** Código comentado **
+```java
+InputStreamResponse response = new InputStreamResponse();
+response.setBody(formatter.getResultStream(), formatter.getByteCount());
+// InputStream resultsStream = formatter.getResultStream();
+// StreamReader reader = new StreamReader(resultsStream);
+// response.setContent(reader.read(formatter.getByteCount()));
+```
+
+** Muita informação **
+```java
+/*
+ RFC 2045 - Multipurpose Internet Mail Extensions (MIME)
+ Part One: Format of Internet Message Bodies
+ section 6.8. Base64 Content-Transfer-Encoding
+ The encoding process represents 24-bit groups of input bits as output
+ strings of 4 encoded characters. Proceeding from left to right, a
+ 24-bit input group is formed by concatenating 3 8-bit input groups.
+ These 24 bits are then treated as 4 concatenated 6-bit groups, each
+ of which is translated into a single digit in the base64 alphabet.
+ When encoding a bit stream via the base64 encoding, the bit stream
+ must be presumed to be ordered with the most-significant-bit first.
+ That is, the first bit in the stream will be the high-order bit in
+ the first 8-bit byte, and the eighth bit will be the low-order bit in
+ the first 8-bit byte, and so on.
+ */
+```
+
+** Javadocs em código privado **
+
 
 ---
 
