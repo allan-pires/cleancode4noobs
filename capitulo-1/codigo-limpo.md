@@ -38,8 +38,9 @@ Mas também não basta saber escrever um código limpo. É preciso **manter** o 
 Você não precisa refatorar a classe inteira, são ações pequenas como mudar o nome de um método que não estava muito claro ou quebrar um método que estava muito grande em outros menores.
 
 ---
-Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alongar muito e escolhi apenas os pontos que considerei mais importantes. 
 
-Para um entendimento mais profundo e detalhado, não deixe de ler o livro!
+_Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alongar muito e escolhi apenas os pontos que considerei mais importantes._
+
+_Para um entendimento mais profundo e detalhado, não deixe de ler o livro!_
 
 [Próximo capítulo: Nomes Significantes >>](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significantes.md)
