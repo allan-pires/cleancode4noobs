@@ -1,4 +1,4 @@
-# Capítulo 2: Nomes significativos
+# Capítulo 2: Nomes Significativos
 <img src="https://miro.medium.com/max/1236/1*rmH00qhA-aFVKxX2vEAGPA.jpeg" width="380">
 
 Nomes estão em todos os lugares em um software. A gente dá nome pra variáveis, funções, argumentos, classes, pacotes, etc. E justamente por a gente dar nome a tudo, temos que fazer isso **bem feito**. Um bom nome pode salvar economizar um tempo precioso na leitura do código, por isso não seja se importe em demorar um pouco mais pensando num bom nome.
