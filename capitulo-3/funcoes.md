@@ -1,6 +1,6 @@
 # Capítulo 3: Funções
 
-<img src="https://miro.medium.com/max/267/1*JPRwyIpOwyYrcAOdvPkxyA.png" width="380">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/1200px-Function_machine2.svg.png" width="380">
 
 Quem nunca passou mais tempo do que deveria tentando entender uma função que (teoricamente) deveria ser simples de se entender? As vezes você precisa ter sido o próprio autor daquele pedaço de código para conseguir entendê-lo, e tem casos em que até ele mesmo tem dificuldade de entender.
 
