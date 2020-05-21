@@ -39,17 +39,17 @@ public List<int[]> getThem() {
 ```
 
 Por mais que não hajam expressões difíceis, grandes problemas de identação ou inúmeras variáveis, é difícil entender o que o código faz. O problema não é que o código não seja simples, é que ele não é **explícito**. Não sabemos que tipo de coisas tem na variável theList, não sabemos qual a significância do número mágico 4 e também não sabemos como será usada a lista que vai ser retornada.
-Agora imagine que esse código é de um jogo de campo minado, onde cada campo do array é um espaço no campo minado, e que o valor de status 4 significa que aquele espaço tem uma mina:
+Agora imagine que esse código é de um jogo de campo minado, onde cada campo do array é um espaço no campo minado, e que o valor de status 4 significa que aquele espaço tem uma bomba:
 
 ```java
-public List<int[]> getFlaggedCells() {
-  List<int[]> flaggedCells = new ArrayList<int[]>();
+public List<int[]> getBombPositions() {
+  List<int[]> bombPositions = new ArrayList<int[]>();
   
-  for (int[] cell : gameBoard)
-    if (cell[STATUS_VALUE] == FLAGGED)
-      flaggedCells.add(cell);
+  for (int[] position : gameBoard)
+    if (position[STATUS_VALUE] == BOMB)
+      bombPositions.add(position);
   
-  return flaggedCells;
+  return bombPositions;
 }
 ```
 
