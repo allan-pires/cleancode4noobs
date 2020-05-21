@@ -11,7 +11,7 @@ Porque o custo total de manter um código ruim é **enorme**.
 
 Quem trabalha ou trabalhou como programador por algum tempo já deve ter passado pela experiência de ter uma produtividade ruim por causa de código ruim. Algo que deveria ter levado horas para ser feito, acabou levando semanas. Uma mudança que bastava ser de uma linha, mas precisou ser feita também em centenas de outros módulos. Todos esses sintomas são bem comuns, adicionar uma funcionalidade simples acaba se tornando uma tarefa extremamente complexa.
 
-![](https://i.imgflip.com/429s3u.jpg)
+<img src="https://i.imgflip.com/429s3u.jpg" width="380">
 
 ## Por que isso acontece? Por que um código bom rapidamente pode virar ruim?
 
