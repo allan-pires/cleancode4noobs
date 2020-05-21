@@ -30,6 +30,6 @@ são **extremamente apreciadas**
 
 ## Autores
 
-- **Allan Pires (Dois)** - _Developer & Member of He4rt Developers_ - [Twitter](https://twitter.com/2lan_br)
+- **Allan Pires (Dois)** - _Developer & Member of He4rt Developers_ - [Twitter](https://twitter.com/2lan)
 
 <p align="center">Made with 💜</p>
