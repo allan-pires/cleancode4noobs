@@ -43,4 +43,4 @@ _Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alo
 
 _Para um entendimento mais profundo e detalhado, não deixe de ler o livro!_
 
-[Próximo capítulo: Nomes Significantes >>](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significantes.md)
+[Próximo capítulo: Nomes significativos >>](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significativos.md)
