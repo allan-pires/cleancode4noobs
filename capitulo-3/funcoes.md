@@ -39,6 +39,7 @@ Funções devem fazer somente UMA coisa, e devem fazê-la bem.
 
 ```java
 // exemplo-5.java
+
   WikiPage wikiPage = pageData.getWikiPage();
   StringBuffer buffer = new StringBuffer();
   
@@ -105,7 +106,7 @@ Funções com muitos argumentos também aumentam muito a complexidade dos testes
 Tratar exceções conta como uma coisa, e funções devem fazer apenas uma coisa. Então uma funcionalidade que trata exceções deve fazer somente isso.
 
 ```java
-//exemplo-6.java
+// exemplo-6.java
 
 public void delete(Page page) {
   try {
@@ -126,6 +127,9 @@ private void logError(Exception e) {
   logger.log(e.getMessage());
 }
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 47.</i>
+</div>
 
 ## 8. DRY (Don’t Repeat Yourself)
 Não repita a si mesmo. Trechos repetidos tornam o código mais obscuro e obsoleto, aumentam a complexidade e dificultam a manutenção.
