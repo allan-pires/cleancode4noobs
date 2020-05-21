@@ -1,10 +1,66 @@
 # Capítulo 4: Comentários
-<img src="https://miro.medium.com/max/593/0*JwJ_v8s3KkZq9b-X.png" width="380">
+<img src="https://i.imgur.com/d9rgvMT.png" width="420">
 
 Segundo o autor, comentários são fracassos. O uso de comentários é para compensar nosso fracasso em nos expressar no código.
 
-## Devo comentar meu código?
-Não.
+Se a necessidade de escrever um comentário vier, pare e reflita um momento se não há uma forma de se expressar somente pelo código.
+
+## Qual o problema de comentários?
+Comentários mentem. Não sempre, não intencionalmente, mas frequentemente. 
+
+Comentários costumam ficar velhos e desatualizados porque são esquecidos enquanto o código evolui rapidamente.
+
+É possível chegar a um ponto em que desenvolvedores são suficientemente disciplinados para manter os comentários atualizados, relevantes e corretos, mas é preferível que esse esforço seja direcionado em manter o código claro e expressivo de forma que sequer precise de comentários.
+
+## Por que escrevemos comentários?
+Uma das maiores motivações da escrita de comentários é código ruim. 
+
+Se o código está desorganizado e confuso, ao invés de criar comentários e tentar explicar o que está acontecendo, use essa energia para limpá-lo.
+
+Observe os seguintes exemplos, você prefere isso:
+```java
+// Checa se o funcionário pode receber o benefício completo
+if ((employee.flags & HOURLY_FLAG) && (employee.age > 65))
+```
+Ou isso?
+
+```java
+if (employee.isEligibleForFullBenefits())
+```
+Em muitos casos basta criar uma função que faz exatamente o que o comentário descreve.
+
+## Comentários Bons
+Alguns comentários são necessários ou benéficos, como por exemplo:
+
+**Comentários de licenças**
+As vezes os padrões corporativos nos obrigam a escrever certos códigos por razões legais, como _copyright_.
+```java
+// Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
+// Released under the terms of the GNU General Public License version 2 or later.
+```
+
+**Comentários informativos**
+Comentários com informações básicas as vezes são úteis, como por exemplo formatos de expressões regulares.
+```java
+// Compara o seguinte formato kk:mm:ss EEE, MMM dd, yyyy
+Pattern timeMatcher = Pattern.compile("\\d*:\\d*:\\d* \\w*, \\w* \\d*, \\d*");
+```
+
+**Comentários de aviso**
+As vezes é útil avisar aos demais desenvolvedores sobre certas consequencias.
+```java
+public static SimpleDateFormat makeStandardHttpDateFormat() {
+  // SimpleDateFormat não é thread-safe,
+  // então precisamos criar cada instancia independentemente
+  SimpleDateFormat df = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss z");
+  df.setTimeZone(TimeZone.getTimeZone("GMT"));
+  
+  return df;
+}
+```
+
+## Comentários Ruins
+
 
 ---
 
