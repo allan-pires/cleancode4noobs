@@ -32,6 +32,8 @@ Isso faz com que a leitura do código fique muito mais fácil e rápida.
 ## 3. Responsabilidade única
 Funções devem fazer somente UMA coisa, e devem fazê-la bem.
 
+<img src="https://66.media.tumblr.com/bd51c0328b590e10c10010cfab72b3f8/tumblr_inline_pjzs8aTkN91sqnfvc_400.gifv" width="380">
+
 ```java
 //exemplo-5.java
 
