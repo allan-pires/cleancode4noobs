@@ -93,7 +93,7 @@ public void loadProperties() {
 
 O que o comentário acima significa? Claramente significava algo pra o desenvolvedor, mas o motivo não é aparente.
 
-** Comentários redundantes **
+**Comentários redundantes**
 ```java
 // Calcula a pontuação total
 public String calculateTotalScore() {
@@ -105,7 +105,7 @@ public String calculateTotalScore() {
  private int dayOfMonth;
 ```
 
-** Comentários enganosos **
+**Comentários enganosos**
 ```java
 /** The name. */
 private String name;
@@ -121,7 +121,7 @@ private String info;
 ```
 Leia atentamente os comentários mais uma vez.
 
-** Regra de comentários **
+**Regra de comentários**
 ```java
 /**
  *
@@ -130,15 +130,14 @@ Leia atentamente os comentários mais uma vez.
  * @param tracks The number of tracks on the CD
  * @param durationInMinutes The duration of the CD in minutes
  */
- public void addCD(String title, String author,
- int tracks, int durationInMinutes) {
- CD cd = new CD();
- cd.title = title;
- cd.author = author;
- cd.tracks = tracks;
- cd.duration = duration;
- cdList.add(cd);
- }
+public void addCD(String title, String author, int tracks, int durationInMinutes) {
+  CD cd = new CD();
+  cd.title = title;
+  cd.author = author;
+  cd.tracks = tracks;
+  cd.duration = duration;
+  cdList.add(cd);
+}
 ```
 <div align="center">
   <i>Robert C. Martin, 2009, p. 63. - Tradução livre</i>
@@ -150,7 +149,7 @@ Leia atentamente os comentários mais uma vez.
 /* Added by Steve */
 ```
 
-** Código comentado **
+**Código comentado**
 ```java
 InputStreamResponse response = new InputStreamResponse();
 response.setBody(formatter.getResultStream(), formatter.getByteCount());
@@ -159,7 +158,7 @@ response.setBody(formatter.getResultStream(), formatter.getByteCount());
 // response.setContent(reader.read(formatter.getByteCount()));
 ```
 
-** Muita informação **
+**Muita informação**
 ```java
 /*
  RFC 2045 - Multipurpose Internet Mail Extensions (MIME)
@@ -178,7 +177,7 @@ response.setBody(formatter.getResultStream(), formatter.getByteCount());
  */
 ```
 
-** Javadocs em código privado **
+**Javadocs em código privado**
 
 
 ---
