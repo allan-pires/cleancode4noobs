@@ -1,5 +1,3 @@
-# 
-
 <div align="center">
   <h2>CleanCode4Noobs - Made with :purple_heart:</h2>
   <strong>Resumo do livro <i>Clean Code: A Handbook of Agile Software Craftsmanship</i> de Robert Cecil Martin.</strong>
