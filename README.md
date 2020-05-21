@@ -1,10 +1,13 @@
-# CleanCode4noobs
+# 
+
+<div align="center">
+  <h2>CleanCode4Noobs - Made with :purple_heart:</h2>
+  <strong>Resumo do livro <i>Clean Code: A Handbook of Agile Software Craftsmanship</i> de Robert Cecil Martin.</strong>
+</div>
 
 <h1 align="center">
   <img src="https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L.jpg" width="320">
 </h1>
-
-<p align="center">Resumo do livro <i>Clean Code: A Handbook of Agile Software Craftsmanship</i> de Robert Cecil Martin.</p>
 
 ## Conteúdo
 
