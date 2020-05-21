@@ -66,7 +66,9 @@ Métodos devem ter um verbo ou um verbo + frase como nome, como por exemplo ```s
 
 ---
 
-Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alongar muito e escolhi apenas os pontos que considerei mais importantes. Para um entendimento mais profundo e detalhado, não deixe de ler o livro!
+Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alongar muito e escolhi apenas os pontos que considerei mais importantes. 
+
+Para um entendimento mais profundo e detalhado, não deixe de ler o livro!
 
 [<< Capitulo anterior: Código Limpo](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-1/codigo-limpo.md)
 
