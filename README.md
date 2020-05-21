@@ -23,9 +23,9 @@ Contribuições fazem com que a comunidade open source seja um lugar incrível p
 são **extremamente apreciadas**
 
 1. Realize um Fork do projeto
-2. Crie um branch com a nova feature (`git checkout -b feature/chapter-10`)
+2. Crie um branch com a nova feature (`git checkout -b feature/capitulo-10`)
 3. Realize o Commit (`git commit -m 'Add new chapter'`)
-4. Realize o Push no Branch (`git push origin feature/chapter-10`)
+4. Realize o Push no Branch (`git push origin feature/capitulo-10`)
 5. Abra um Pull Request
 
 ## Autores
