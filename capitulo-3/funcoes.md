@@ -29,6 +29,7 @@ public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean
 <div align="center">
   <i>Robert C. Martin, 2009, p. 35.</i>
 </div>
+<br>
 
 Isso faz com que a leitura do código fique muito mais fácil e rápida.
 
@@ -66,6 +67,7 @@ Funções devem fazer somente UMA coisa, e devem fazê-la bem.
 <div align="center">
   <i>Robert C. Martin, 2009, p. 32-33.</i>
 </div>
+<br>
 
 Nesse exemplo acima podemos claramente ver que esse código faz bem mais que uma coisa e possui diferentes níveis de abstração. Cria buffers, busca páginas, renderiza caminhos, gera HTML, além de outras coisas.
 
@@ -130,6 +132,7 @@ private void logError(Exception e) {
 <div align="center">
   <i>Robert C. Martin, 2009, p. 47.</i>
 </div>
+<br>
 
 ## 8. DRY (Don’t Repeat Yourself)
 Não repita a si mesmo. Trechos repetidos tornam o código mais obscuro e obsoleto, aumentam a complexidade e dificultam a manutenção.
