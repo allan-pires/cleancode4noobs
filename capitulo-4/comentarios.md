@@ -23,13 +23,13 @@ Se o código está desorganizado e confuso, ao invés de criar comentários e te
 
 Observe os seguintes exemplos, você prefere isso:
 ```java
-// Checa se o funcionário pode receber o benefício completo
-if ((employee.flags & HOURLY_FLAG) && (employee.age > 65))
+// Checa se o personagem pode usar a magia Fire Ball
+if ((hero.alive & STATUS_OK) && (hero.mana > 650))
 ```
 Ou isso?
 
 ```java
-if (employee.isEligibleForFullBenefits())
+if (hero.canUseFireBall())
 ```
 Em muitos casos basta criar uma função que faz exatamente o que o comentário descreve.
 
@@ -42,6 +42,10 @@ As vezes os padrões corporativos nos obrigam a escrever certos códigos por raz
 // Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
 // Released under the terms of the GNU General Public License version 2 or later.
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 55.</i>
+</div>
+<br>
 
 **Comentários informativos**
 Comentários com informações básicas as vezes são úteis, como por exemplo formatos de expressões regulares.
@@ -49,6 +53,10 @@ Comentários com informações básicas as vezes são úteis, como por exemplo f
 // Compara o seguinte formato kk:mm:ss EEE, MMM dd, yyyy
 Pattern timeMatcher = Pattern.compile("\\d*:\\d*:\\d* \\w*, \\w* \\d*, \\d*");
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 56. - Tradução livre</i>
+</div>
+<br>
 
 **Comentários de aviso**
 As vezes é útil avisar aos demais desenvolvedores sobre certas consequencias.
@@ -62,6 +70,10 @@ public static SimpleDateFormat makeStandardHttpDateFormat() {
   return df;
 }
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 58. - Tradução livre</i>
+</div>
+<br>
 
 ## Comentários Ruins
 A maioria dos códigos se enquadra nessa categoria, normalmente são apenas desculpas para código e decisões ruins.
@@ -79,6 +91,12 @@ public void loadProperties() {
   }
 }
 ```
+<div align="center">
+  <i>Robert C. Martin, 2009, p. 60. - Tradução livre</i>
+</div>
+<br>
+
+O que o comentário acima significa? Claramente 
 
 ---
 
