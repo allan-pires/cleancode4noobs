@@ -37,6 +37,7 @@ Em muitos casos basta criar uma função que faz exatamente o que o comentário 
 Alguns comentários são necessários ou benéficos, como por exemplo:
 
 **Comentários de licenças**
+
 As vezes os padrões corporativos nos obrigam a escrever certos códigos por razões legais, como _copyright_.
 ```java
 // Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
@@ -48,6 +49,7 @@ As vezes os padrões corporativos nos obrigam a escrever certos códigos por raz
 <br>
 
 **Comentários informativos**
+
 Comentários com informações básicas as vezes são úteis, como por exemplo formatos de expressões regulares.
 ```java
 // Compara o seguinte formato kk:mm:ss EEE, MMM dd, yyyy
@@ -59,6 +61,7 @@ Pattern timeMatcher = Pattern.compile("\\d*:\\d*:\\d* \\w*, \\w* \\d*, \\d*");
 <br>
 
 **Comentários de aviso**
+
 As vezes é útil avisar aos demais desenvolvedores sobre certas consequencias.
 ```java
 public static SimpleDateFormat makeStandardHttpDateFormat() {
