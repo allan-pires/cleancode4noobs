@@ -121,7 +121,9 @@ Não repita a si mesmo. Trechos repetidos tornam o código mais obscuro e obsole
 
 ---
 
-Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alongar muito e escolhi apenas os pontos que considerei mais importantes. Para um entendimento mais profundo e detalhado, não deixe de ler o livro!
+Ao longo do capítulo o autor dá várias outras dicas, mas preferi não me alongar muito e escolhi apenas os pontos que considerei mais importantes. 
+
+Para um entendimento mais profundo e detalhado, não deixe de ler o livro!
 
 [<< Capitulo anterior: Nomes significantes](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significantes.md)
 
