@@ -8,11 +8,11 @@
 
 ## Conteúdo
 
-- [Capítulo 1: Código Limpo](https://github.com/allan-pires/cleancode4noobs/blob/master/01%20C%C3%B3digo%20Limpo/C%C3%B3digo%20Limpo.md)
+- [Capítulo 1: Código Limpo](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-1/codigo-limpo.md)
 
-- [Capítulo 2: Nomes Significantes](https://github.com/allan-pires/cleancode4noobs/blob/master/mylink.md)
+- [Capítulo 2: Nomes Significantes](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significantes.md)
 
-- [Capítulo 3: Funções](https://github.com/allan-pires/cleancode4noobs/blob/master/mylink.md)
+- [Capítulo 3: Funções](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-3/funcoes.md)
 
 #### Referências
 Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
