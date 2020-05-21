@@ -92,6 +92,8 @@ Muitos argumentos dificultam o entendimento de uma função, fora que é bastant
 
 Funções com muitos argumentos também aumentam muito a complexidade dos testes. Imagine criar todos os casos de testes para garantir que a combinação de vários diferentes argumentos funcionem corretamente.
 
+<img src="https://i.imgur.com/YeYL8ox.png" width="600">
+
 ## 7. Tratamento de Exceções
 Tratar exceções conta como uma coisa, e funções devem fazer apenas uma coisa. Então uma funcionalidade que trata exceções deve fazer somente isso.
 
