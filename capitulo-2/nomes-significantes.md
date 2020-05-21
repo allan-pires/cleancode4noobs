@@ -36,7 +36,7 @@ public List<int[]> getThem() {
 }
 ```
 
-Por mais que não hajam expressões difíceis, grandes problemas de identação ou inúmeras variáveis, é difícil entender o que o código faz. O problema não é que o código não seja simples, é que ele não é explícito. Não sabemos que tipo de coisas tem na variável theList, não sabemos qual a significância do número mágico 4 e também não sabemos como será usada a lista que vai ser retornada.
+Por mais que não hajam expressões difíceis, grandes problemas de identação ou inúmeras variáveis, é difícil entender o que o código faz. O problema não é que o código não seja simples, é que ele não é **explícito**. Não sabemos que tipo de coisas tem na variável theList, não sabemos qual a significância do número mágico 4 e também não sabemos como será usada a lista que vai ser retornada.
 Agora imagine que esse código é de um jogo de campo minado, onde cada campo do array é um espaço no campo minado, e que o valor de status 4 significa que aquele espaço tem uma mina:
 
 ```java
@@ -54,15 +54,15 @@ public List<int[]> getFlaggedCells() {
 Observe que a simplicidade do código não foi modificada, mas o código ficou muito mais explícito apenas usando nomes mais significantes.
 
 ## 3. Nomes devem ter significados distintos
-Outra coisa que costuma acontecer com frequência é colocar duas variáveis com objetivos diferentes, mas com nomes quase iguais, uma pequena diferença apenas para fazer o programa rodar, como por exemplo os nomes ‘var1’ e ‘var2’. Isso faz com que os nomes sejam totalmente não informativos e sem nenhuma pista sobre suas diferenças. Se as variáveis tem significados diferentes, os seus nomes precisam ser distintos, como ‘source’ e ‘destination’.
+Outra coisa que costuma acontecer com frequência é colocar duas variáveis com objetivos diferentes, mas com nomes quase iguais, uma pequena diferença apenas para fazer o programa rodar, como por exemplo os nomes ```var1``` e ```var2```. Isso faz com que os nomes sejam totalmente não informativos e sem nenhuma pista sobre suas diferenças. Se as variáveis tem significados diferentes, os seus nomes precisam ser distintos, como ‘source’ e ‘destination’.
 
 ## 4. Nomes devem ser fáceis de buscar
-Use nomes fáceis de serem procurados no código. Se eu definir uma variável com nome ‘e’, dá pra perceber teremos um certo trabalho pra procurá-la pelo código.
+Use nomes fáceis de serem procurados no código. Se eu definir uma variável com nome ```e```, dá pra perceber teremos um certo trabalho pra procurá-la pelo código.
 
 ## 5. Nomes de uma classe devem ser substantivos
-Classes e objetos devem ter um substantivo ou uma frase + substantivo como nome, como por exemplo Customer, Client, User ou AdressParser.
+Classes e objetos devem ter um substantivo ou uma frase + substantivo como nome, como por exemplo ```Customer```, ```Client```, ```User``` ou ```AdressParser```.
 ## 6. Nomes de um método devem ser verbos
-Métodos devem ter um verbo ou um verbo + frase como nome, como por exemplo save, deletePage ou sendEmail.
+Métodos devem ter um verbo ou um verbo + frase como nome, como por exemplo ```save```, ```deletePage``` ou ```sendEmail```.
 
 ---
 
