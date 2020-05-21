@@ -1,11 +1,13 @@
 # Capítulo 4: Comentários
-<img src="https://i.imgur.com/d9rgvMT.png" width="420">
+<img src="https://i.imgur.com/d9rgvMT.png">
 
 Segundo o autor, comentários são fracassos. O uso de comentários é para compensar nosso fracasso em nos expressar no código.
 
 Se a necessidade de escrever um comentário vier, pare e reflita um momento se não há uma forma de se expressar somente pelo código.
 
 ## Qual o problema de comentários?
+<img src="https://i.imgur.com/ioIHtPe.png">
+
 Comentários mentem. Não sempre, não intencionalmente, mas frequentemente. 
 
 Comentários costumam ficar velhos e desatualizados porque são esquecidos enquanto o código evolui rapidamente.
@@ -13,6 +15,8 @@ Comentários costumam ficar velhos e desatualizados porque são esquecidos enqua
 É possível chegar a um ponto em que desenvolvedores são suficientemente disciplinados para manter os comentários atualizados, relevantes e corretos, mas é preferível que esse esforço seja direcionado em manter o código claro e expressivo de forma que sequer precise de comentários.
 
 ## Por que escrevemos comentários?
+<img src="https://i.imgur.com/V4Y1ezm.png" width="320">
+
 Uma das maiores motivações da escrita de comentários é código ruim. 
 
 Se o código está desorganizado e confuso, ao invés de criar comentários e tentar explicar o que está acontecendo, use essa energia para limpá-lo.
@@ -60,7 +64,21 @@ public static SimpleDateFormat makeStandardHttpDateFormat() {
 ```
 
 ## Comentários Ruins
+A maioria dos códigos se enquadra nessa categoria, normalmente são apenas desculpas para código e decisões ruins.
 
+**Resmungado**
+```java
+public void loadProperties() {
+  try {
+    String propertiesPath = propertiesLocation + "/" + PROPERTIES_FILE;
+    FileInputStream propertiesStream = new FileInputStream(propertiesPath);
+    loadedProperties.load(propertiesStream);
+  }
+  catch(IOException e) {
+    // Nenhum arquivo de propriedade significa que todos os valores padrões foram carregados
+  }
+}
+```
 
 ---
 
