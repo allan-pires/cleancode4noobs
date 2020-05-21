@@ -134,4 +134,4 @@ _Para um entendimento mais profundo e detalhado, não deixe de ler o livro!_
 
 [>> Próximo capítulo: Comentários](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-4/comentarios.md)
 
-[<< Capitulo anterior: Nomes significantes](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significantes.md)
+[<< Capitulo anterior: Nomes significativos](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-2/nomes-significativos.md)
