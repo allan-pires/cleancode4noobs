@@ -15,6 +15,8 @@
 
 - [Capítulo 3: Funções](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-3/funcoes.md)
 
+- [Capítulo 4: Comentários](https://github.com/allan-pires/cleancode4noobs/blob/master/capitulo-4/comentarios.md)
+
 #### Referências
 Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
