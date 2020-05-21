@@ -107,16 +107,16 @@ public String calculateTotalScore() {
 
 **Comentários enganosos**
 ```java
-/** The name. */
+/** O nome. */
 private String name;
 
-/** The version. */
+/** A versão. */
 private String version;
 
-/** The licenceName. */
+/** O nome da licença. */
 private String licenceName;
 
-/** The version. */
+/** A versão. */
 private String info;
 ```
 Leia atentamente os comentários mais uma vez.
@@ -125,10 +125,10 @@ Leia atentamente os comentários mais uma vez.
 ```java
 /**
  *
- * @param title The title of the CD
- * @param author The author of the CD
- * @param tracks The number of tracks on the CD
- * @param durationInMinutes The duration of the CD in minutes
+ * @param title Título do CD
+ * @param author Autor do CD
+ * @param tracks Número de faixas do CD
+ * @param durationInMinutes Duração do CD em minutos
  */
 public void addCD(String title, String author, int tracks, int durationInMinutes) {
   CD cd = new CD();
@@ -144,7 +144,7 @@ public void addCD(String title, String author, int tracks, int durationInMinutes
 </div>
 <br>
 
-** Comentários de adição **
+**Comentários de adição**
 ```java
 /* Added by Steve */
 ```
