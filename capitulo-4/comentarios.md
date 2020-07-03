@@ -119,9 +119,7 @@ private String licenceName;
 /** A versão. */
 private String info;
 ```
-Leia atentamente os comentários mais uma vez.
-
-Percebeu algo errado?
+Leia atentamente os comentários mais uma vez. Percebeu algo errado?
 
 **Comentários obrigatórios**
 ```java
@@ -161,9 +159,7 @@ response.setBody(formatter.getResultStream(), formatter.getByteCount());
 // StreamReader reader = new StreamReader(resultsStream);
 // response.setContent(reader.read(formatter.getByteCount()));
 ```
-Poucas práticas são tão horrendas quanto código comentado, Não faça isso!
-
-Muitas pessoas quando veem código comentado tem medo de deletar porque acham que ele deve estar lá por algum motivo importante. Se o código está num repositório git, isso vai ficar registrado no histórico e não precisa existir no código.
+Poucas práticas são tão horrendas quanto código comentado, Não faça isso! Muitas pessoas quando veem código comentado tem medo de deletar porque acham que ele deve estar lá por algum motivo importante. Se o código está num repositório git, isso vai ficar registrado no histórico e não precisa existir no código.
 
 **Muita informação**
 ```java
