@@ -185,6 +185,7 @@ Muitas pessoas quando veem código comentado tem medo de deletar porque acham qu
 ```
 
 **Javadocs em código não-público**
+
 Javadocs pode ser muito útil para APIs públicas, mas não é nem um pouco necessário para código interno.
 
 ---
