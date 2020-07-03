@@ -121,7 +121,9 @@ private String info;
 ```
 Leia atentamente os comentários mais uma vez.
 
-**Regra de comentários**
+Percebeu algo errado?
+
+**Comentários obrigatórios**
 ```java
 /**
  *
@@ -144,6 +146,8 @@ public void addCD(String title, String author, int tracks, int durationInMinutes
 </div>
 <br>
 
+Ter uma regra que obriga todos os métodos a terem javadoc ou todas as variáveis a terem comentários é ridículo e só serve para criar um aglomerado de informações desnecessárias que podem potencialmente criar confusão.
+
 **Comentários de adição**
 ```java
 /* Added by Steve */
@@ -157,6 +161,9 @@ response.setBody(formatter.getResultStream(), formatter.getByteCount());
 // StreamReader reader = new StreamReader(resultsStream);
 // response.setContent(reader.read(formatter.getByteCount()));
 ```
+Poucas práticas são tão horrendas quanto código comentado, Não faça isso!
+
+Muitas pessoas quando veem código comentado tem medo de deletar porque acham que ele deve estar lá por algum motivo importante. Se o código está num repositório git, isso vai ficar registrado no histórico e não precisa existir no código.
 
 **Muita informação**
 ```java
@@ -177,8 +184,8 @@ response.setBody(formatter.getResultStream(), formatter.getByteCount());
  */
 ```
 
-**Javadocs em código privado**
-
+**Javadocs em código não-público**
+Javadocs pode ser muito útil para APIs públicas, mas não é nem um pouco necessário para código interno.
 
 ---
 
