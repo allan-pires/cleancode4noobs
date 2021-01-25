@@ -1,9 +1,9 @@
 # Capítulo 5: Formatação
-![Image](https://pbs.twimg.com/media/EsR-0o-U0AAZeju?format=jpg&name=900x900)
+<img src="https://pbs.twimg.com/media/EsR-0o-U0AAZeju?format=jpg&name=900x900" width="380">
 
 Imagine o seguinte cenário: Você acabou de ser contratado em uma empresa e está dando uma olhada nos repositórios e códigos. Você espera encontrar atenção aos detalhes, consistência, coisas que mostrem que profissionais e pessoas comprometidas trabalharam nesse projeto. No entando você encontra um amontoado de código completamente desordenado e sem padrão algum, que parece que foi escrito pela carreta furacão. Naturalmente sua primeira impressão é que a mesma falta de atenção a detalhes vai estar presente em todos os outros aspectos do projeto.
 
-![EUVO MATA](https://i.imgur.com/2MyLPgU.png)
+<img src="https://i.imgur.com/2MyLPgU.png" width="380">
 
 ## O Objetivo da Formatação
 Só pra deixar bem claro: formatação de código é **muito importante**. É uma questão de comunicação, e comunicação é essencial para desenvolvedores.
