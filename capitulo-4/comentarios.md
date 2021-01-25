@@ -94,6 +94,9 @@ public void loadProperties() {
 O que o comentário acima significa? Claramente significava algo pra o desenvolvedor, mas o motivo não é aparente.
 
 **Comentários redundantes**
+
+<img src="https://preview.redd.it/iuy9fxt300811.png?auto=webp&s=156f5ffebbea5b30189eb36012e5bc7e3369c381" width="320">
+
 ```java
 // Calcula a pontuação total
 public String calculateTotalScore() {
