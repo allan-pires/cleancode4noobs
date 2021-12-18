@@ -1,6 +1,4 @@
 # Capítulo 5: Formatação
-<img src="https://pbs.twimg.com/media/EsR-0o-U0AAZeju?format=jpg&name=900x900" width="380">
-
 Imagine o seguinte cenário: Você acabou de ser contratado em uma empresa e está dando uma olhada nos repositórios e códigos. Você espera encontrar atenção aos detalhes, consistência, coisas que mostrem que profissionais e pessoas comprometidas trabalharam nesse projeto. No entando você encontra um amontoado de código completamente desordenado e sem padrão algum, que parece que foi escrito pela carreta furacão. Naturalmente sua primeira impressão é que a mesma falta de atenção a detalhes vai estar presente em todos os outros aspectos do projeto.
 
 <img src="https://i.imgur.com/2MyLPgU.png" width="380">
@@ -24,9 +22,9 @@ package sample.package;
 import java.util.regex.*;
 
 public class Main {
-	public static final String REGEXP = "'''.+? '''";
+  public static final String REGEXP = "'''.+? '''";
 	
-	static void myStaticMethod() {
+  static void myStaticMethod() {
     System.out.println("Static method");
   }
 
